@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 tags = []
 space_names = []
 model_cards = []
-urls = pd.read_csv('../data(25.Feb)/urls_3000_common_250201.csv')
+urls = pd.read_csv('data/urls_3000_common_250201.csv')
 base_url = 'https://huggingface.co'
 
 

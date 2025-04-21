@@ -63,4 +63,4 @@ pd.DataFrame(data={
     'tag': tags,
     'space': space_names,
     'modelcard': model_cards
-     }).to_csv('../data(25.Feb)/huggingface_250201_bs4.csv', index=False)  
+     }).to_csv('data/huggingface_250201_bs4.csv', index=False)  
